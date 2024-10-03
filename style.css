@@ -1,0 +1,42 @@
+body{
+    width: 500px;
+    margin: auto;
+    background-image: url(./assets/img/sfondo.png);
+    background-repeat: repeat-y;
+    background-position: top;
+    background-color: black;
+}
+
+header{
+    width: 480px;
+    height: 400px;
+    background: rgb(39,101,135);
+    background: linear-gradient(3deg, rgba(39,101,135,1) 0%, rgba(34,181,210,1) 100%);
+    margin: 20px;
+    -webkit-box-shadow: 1px 4px 6px -1px rgba(0,0,0,0.53); 
+    box-shadow: 1px 4px 6px -1px rgba(0,0,0,0.53);
+    text-align: center;
+
+}   
+
+header img{
+    margin-top: 30px;
+}
+
+header p {
+    margin: 30px;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: white;
+}
+
+header ul {
+    margin-top: 40px;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: white;
+}
+
+header .fas{
+    margin: 0.5em;
+}
