@@ -72,7 +72,7 @@ h5 .fas{
     margin-bottom: 30px;
 }
 
-ul{
+article ul{
     font-size: 1.5em;
     margin-bottom: 30px;
     list-style: disc;
@@ -154,5 +154,25 @@ video{
     width: 440px;
     height: 380px;
     background-image: url(https://placecats.com/440/380/);
+    border-radius: 50px;
+    margin-bottom: 50px;
 }
 
+.article-3{
+    width: 380px;
+    height: 390px;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    padding: 30px;
+}
+
+h2{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.article-3 p{
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 40px;
+}
