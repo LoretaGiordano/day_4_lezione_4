@@ -5,6 +5,7 @@ body{
     background-repeat: repeat-y;
     background-position: top;
     background-color: black;
+    padding-left: 20px;
 }
 
 header{
@@ -12,10 +13,10 @@ header{
     height: 400px;
     background: rgb(39,101,135);
     background: linear-gradient(3deg, rgba(39,101,135,1) 0%, rgba(34,181,210,1) 100%);
-    margin: 20px;
     -webkit-box-shadow: 1px 4px 6px -1px rgba(0,0,0,0.53); 
     box-shadow: 1px 4px 6px -1px rgba(0,0,0,0.53);
     text-align: center;
+    margin-top: 30px;
 
 }   
 
@@ -39,4 +40,53 @@ header ul {
 
 header .fas{
     margin: 0.5em;
+}
+
+main{
+    width: 440px;
+    background-color: white;
+    -webkit-box-shadow: 1px 4px 6px -1px rgba(0,0,0,0.53); 
+    box-shadow: 1px 4px 6px -1px rgba(0,0,0,0.53);
+    margin-top: 30px;
+    padding: 50px 20px 20px;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 600;
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+h5{
+    margin-bottom: 30px;
+    font-size: 1.65em;
+    color: gray;
+}
+h5 .fas{
+    margin-right: 0.25em;
+}
+
+.article-1 p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+ul{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    list-style: disc;
+    margin-left: 40px;
+}
+
+#frame{
+    background-color: rgb(185, 185, 185);
+    border-color: rgb(94, 93, 93);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    display: inline;
+    font-size: 1.5rem;
+    padding-left: 2px;
+    padding-right: 2px;
 }
