@@ -141,6 +141,11 @@ tr:nth-child(even){
     padding: 10px;
     text-align: center;
 }
+
+tr:last-child{
+    border-bottom: 2px solid rgb(45, 84, 212);
+}
+
 td{
     padding: 20px;
 }
